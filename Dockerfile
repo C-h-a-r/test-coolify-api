@@ -15,7 +15,7 @@ RUN npm i
 
 
 # Command to run the app
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
 
 
 # Expose the port the app runs on
