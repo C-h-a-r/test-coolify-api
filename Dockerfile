@@ -11,7 +11,7 @@ COPY package.json ./
 COPY index.js ./
 
 # Install dependencies
-RUN npm i
+RUN npm i fastify @fastify/cors
 
 
 # Command to run the app
